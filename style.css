@@ -29,6 +29,7 @@ h2{
     text-decoration: none;
     background-color: lightcoral;
     padding: 15px 40px;
+    border-radius: 10px;
 }
 section{
     height: 450px;
@@ -50,13 +51,35 @@ section{
     width:100%;
     float: left;
 }
-.last-part{
-    background-image: url(images/sapes.png);
-    margin: 10px;
-}
-}
-.chat-part{
-    color:white;
+.background-image{
     background-image: url("images/sapes.png");
-    
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 300px;
+    margin: 10% 20%;
+}
+.common-part{
+    display: inline-block;
+}
+.chat-part a{
+    text-decoration: none;
+    color: white;
+}
+
+.chat-part{
+
+    padding-left: 100px;
+    margin-left: 20px;
+}
+.word-inquiry h2{
+    color:white;
+
+}
+.word-inquiry{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.last-part{
+    text-align: center;
 }
