@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 80%;
+    float: left;
+}
+.blue-colour{
+    color: slateblue;
+}
+.orange-colour{
+    color:lightcoral;
+}
+.red-button{
+    color: white;
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 15px 40px;
+}
+section{
+    height: 450px;
+    
+    
+}
+.center{
+    text-align: center;
+}
+.one-thirt{
+    width:28%;
+    padding-left: 2%;
+    margin-left: 2%;
+    float: left;
+    box-shadow: 10px 10px 50px gray;
+    
+}
+.one-thirt img{
+    width:100%;
+    float: left;
+}
+.last-part{
+    background-image: url(images/sapes.png);
+    margin: 10px;
+}
+}
+.chat-part{
+    color:white;
+    background-image: url("images/sapes.png");
+    
+}
